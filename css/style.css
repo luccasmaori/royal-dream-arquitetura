@@ -1,0 +1,261 @@
+body {
+    font-family: 'Roboto Slab', serif; /* fonte e família da fonte */
+    color: #1c1c1c; /* cor do elemento */
+}
+
+
+/* barra de navegação */
+.topbar {
+    list-style-type: none; /* remove o marcador da lista */
+    margin: 0; /* define a margem em 0 */
+    padding: 0; /* define a borda interna em 0 */
+    overflow: hidden; /* exibe o conteúdo completo do elemento */
+    background-color: #1b1b1b; /* cor de fundo*/
+}
+  
+.topbar__linkLogo {
+    display: block; /* exibição de elemento em forma de bloco */
+    text-align: center; /* alinhamento do texto ao centro */
+    margin: 16px 16px; /* margem do elemento */
+    text-decoration: none; /* formatação do texto neutralizada */
+    float: left; /* posição do elemento à esquerda */
+}
+  
+.topbar__link {
+    display: block; /* exibição de elemento em forma de bloco */
+    color: #999999; /* cor do elemento */
+    font-weight: 800; /* altura da fonte */
+    font-size: 18px; /* tamanho da fonte */
+    text-align: center; /* alinhamento do texto ao centro */
+    margin: 27px 14px 16px; /* margem do elemento */
+    text-decoration: none; /* formatação do texto neutralizada */
+    float: right; /* posição do elemento à direita */
+}
+
+.topbar__link:hover {
+    color: #fec800; /* cor do elemento */
+}
+  
+
+/* cabeçalho da página */
+.cabecalho {
+    display: flex; /* exibição de elemento em forma flexível */
+    flex-direction: column; /* direção flexível em forma de coluna */
+    align-items: center; /* alinhamento dos itens no centro */
+    background-image: url("../img/camera.jpg"); /* imagem de fundo */
+    background-size: cover; /* tamanho do elemento cobrindo o espaçamento disponível */
+    background-repeat: no-repeat; /* repetição do elemento fundo desligada */
+    background-position: center; /* posição do elemento de fundo */
+    color: #FFFFFF; /* cor do elemento */
+    text-align: center; /* alinhamento do texto ao centro */
+    padding: 20px; /* espaçamento interno do elemento */
+}
+
+.cabecalho__botao {
+    color: #000000; /* cor do elemento */
+    text-decoration: none; /* formatação do texto neutralizada */
+    padding: 10px 30px; /* espaçamento interno do elemento */
+    background-color: #a7a7a7; /* cor de fundo */
+    font-size: .9em; /* tamanho da fonte */
+    font-weight: bold; /* estilo da fonte em negrito */
+    border-radius: 30px; /* arredondamento da borda */
+}
+
+.cabecalho__botao:hover {
+    background-color: #fec800; /* cor de fundo */
+}
+
+.cabecalho__titulo {
+    color: #fec800; /* cor do elemento */
+}
+
+.cabecalho__paragrafo {
+    margin-bottom: 2em; /* margem abaixo do elemento */
+    color: #dadada; /* cor do elemento */
+}
+
+
+/* sobre a empresa */
+.sobre {
+    display: flex; /* exibição de elemento em forma flexível */
+    flex-direction: column; /* direção flexível em forma de coluna */
+    align-items: center; /* alinhamento dos itens no centro */
+    text-align: center; /* alinhamento do texto ao centro */
+    padding: 10px 10px 20px 20px;  /* espaçamento interno do elemento */
+    background-color: #1b1b1b; /* cor de fundo */
+    color: #dadada; /* cor do elemento */
+}
+
+.sobre__titulo {
+    color: #fec800; /* cor do elemento */
+}
+
+.sobre__paragrafo {
+    margin-bottom: 2.5em; /* margem abaixo do elemento */
+    max-width: 1000px; /* largura máxima */
+}
+
+.sobre__botao {
+    background-color: #a7a7a7; /* cor de fundo */
+    color: #000000; /* cor do elemento */
+    text-decoration: none; /* formatação do texto neutralizada */
+    padding: 10px 30px; /* espaçamento interno do elemento */
+    font-size: .9em; /* tamanho da fonte */
+    font-weight: bold; /* estilo da fonte em negrito */
+    border-radius: 30px; /* arredondamento da borda */
+}
+
+.sobre__botao:hover {
+    background-color: #fec800; /* cor de fundo */
+}
+
+
+/* serviços prestados */
+.servicos {
+    display: flex; /* exibição de elemento em forma flexível */
+    flex-direction: column; /* direção flexível em forma de coluna */
+    align-items: center; /* alinhamento dos itens no centro */
+    padding: 30px; /* espaçamento interno do elemento */
+}
+
+.servicos__titulo {
+    color: #000000; /* cor do elemento */
+}
+
+.servicos__div {
+    display: flex; /* exibição de elemento em forma flexível */
+    flex-direction: column; /* direção flexível em forma de coluna */
+    align-items: center; /* alinhamento dos itens no centro */
+    margin-top: 30px; /* margem do topo do elemento */
+}
+
+.servicos__paragrafo {
+    margin-top: 0px; /* margem do topo do elemento */
+}
+
+
+/* fotos de portifólio */
+.fotos {
+    display: flex; /* exibição de elemento em forma flexível */
+    flex-direction: column; /* direção flexível em forma de coluna */
+    align-items: center; /* alinhamento dos itens no centro */
+    padding: 20px; /* espaçamento interno do elemento */
+}
+
+.fotos__titulo {
+    font-family: 'M PLUS 1', sans-serif; /* fonte e família da fonte */
+    margin-bottom: 20px; /* margem abaixo do elemento */
+}
+
+.fotos__img {
+    width: 100%; /* largura do elemento */
+}
+
+
+/* informações de contato */
+.contato {
+    display: flex; /* exibição de elemento em forma flexível */
+    flex-direction: column; /* direção flexível em forma de coluna */
+    align-items: center; /* alinhamento dos itens no centro */
+    text-align: center; /* alinhamento do texto ao centro */
+    padding: 20px; /* espaçamento interno */
+}
+
+.contato__titulo {
+    font-family: 'M PLUS 1', sans-serif; /* fonte e família da fonte */
+    color: #000000; /* cor do elemento */
+}
+
+
+/* rodapé */
+.rodape {
+    font-size: 12px; /* tamanho da fonte */
+    text-align: center; /* alinhamento do texto ao centro */
+    padding: 10px; /* espaçamento interno do elemento */
+    background-color: #1b1b1b; /* cor de fundo */
+    color: #FFFFFF; /* cor do elemento */
+}
+
+.rodape__link {
+    font-size: 20px; /* tamanho da fonte */
+    font-weight: 500;
+    text-decoration: none; /* formatação do texto neutralizada */
+    color: #8a8a8a; /* cor do elemento */
+}
+
+.rodape__link:hover {
+    color: #fec800; /* cor do elemento */
+}
+
+/* media query (adaptação do layout para determinados tamanhos de telas) */
+@media screen and (max-width: 600px) {
+
+    /* barra de navegação */
+    .topbar__linkLogo, .topbar__link {
+        float: none; /* define a posição do elemento em padrão */
+    }
+}
+
+/* media query (adaptação do layout para determinados tamanhos de telas) */
+@media screen and (min-width: 768px) {
+
+    /* cabeçalho */
+    .cabecalho {
+        height: 600px; /* altura do elemento */
+        height: 60vh; /* largura do elemento */
+        justify-content: center; /* justificar conteúdo ao centro */
+    }
+
+
+    /* sobre */
+    .sobre {
+        height: 250px; /* altura do elemento */
+        height: 30vh; /* altura do elemento */
+        justify-content: center; /* justificar conteúdo ao centro */
+        min-height: 250px; /* altura mínima */
+    }
+
+
+    /* serviços */
+    .servicos__titulo {
+        text-align: center; /* alinhamento do texto ao centro */
+        width: 100%; /* largura do elemento */
+    }
+
+    .servicos__div {
+        flex-grow: 1; /* proporção de crescimento do elemento */
+        flex-basis: 150px; /* tamanho inicial do elemento */
+        padding: 0 10px; /* espaçamento interno do elemento */
+        justify-content: center; /* justificar conteúdo ao centro */
+    }
+
+
+    /* fotos */
+    .fotos {
+        flex-direction: row; /* direção flexível em forma de linha */
+        flex-wrap: wrap; /* quebra de linha flexível */
+    }
+
+    .fotos__titulo {
+        width: 100%; /* largura do elemento */
+        text-align: center; /* alinhamento do texto ao centro */
+    }
+
+    .fotos__img {
+        width: 33.3333333%;  /* largura do elemento */
+    }
+
+
+    /* contato */
+    .contato {
+        flex-direction: row; /* direção flexível em forma de linha */
+        flex-wrap: wrap; /* quebra de linha flexível */
+        justify-content: space-around; /* justificar conteúdo ao centro */
+        max-width: 500px; /* largura máxima do elemento */
+        margin: 0 auto; /* margem do elemento */
+    }
+
+    .contato__titulo, .contato__paragrafo {
+        width: 100%; /* largura do elemento */
+    }
+}
