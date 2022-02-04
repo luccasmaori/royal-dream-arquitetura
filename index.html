@@ -1,0 +1,132 @@
+<!-- indica que o arquivo está no formato html5 -->
+<!DOCTYPE html>
+
+<!-- início da linguagem html (já definindo o idioma da página para o navegador) -->
+<html lang="pt-br">
+
+<!-- informações para o navegador -->
+<head>
+    <meta charset="UTF-8"> <!-- formato de codificação padrão para caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- suporte padrão para o internet explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- suporte padrão para dispositivos móveis -->
+    <title> Royal Dream Arquitetura </title> <!-- título da página exibido na aba do navegador e favoritos -->
+    <link rel="icon" href="./img/favicon.ico"> <!-- ícone da página exibido na aba do navegador -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- inclusão de fonte de texto externa -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- inclusão de fonte de texto externa -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&display=swap" rel="stylesheet"> <!-- inclusão de fonte de texto externa -->
+    <link rel="stylesheet" href="./css/normalize.css"> <!-- inclusão de arquivo css -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- inclusão de arquivo css -->
+</head>
+
+<!-- informações contidas na página -->
+<body>
+
+    <!-- barra de navegação superior -->
+    <nav>
+        <ul class="topbar">
+            <li><a class="topbar__linkLogo" href="#"> <img src="img/logo-topbar.png" alt="logo"></a>  <!-- logo da barra de navegação superior --></li>
+            <li><a class="topbar__link" href="#sobre">Sobre</a></li>
+            <li><a class="topbar__link" href="#servicos">Serviços</a></li>
+            <li><a class="topbar__link" href="#fotos">Galeria</a></li>
+            <li><a class="topbar__link" href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- cabeçalho da página -->
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Consultoria em Arquitetura</h1>
+        <p class="cabecalho__paragrafo">A empresa Royal Dream é referência no ramo de arquitetura, para isso, conta com uma equipe de profissionais altamente qualificados, além de uma série de metodologias e equipamentos, para entregar a você o melhor projeto de arquitetura da sua residência ou empresa.</p>
+        <a class="cabecalho__botao" href="#servicos">Ver Mais</a>
+    </header>
+
+    <!-- conteúdo da página -->
+    <main>
+        <!-- seção sobre a empresa -->
+        <section class="sobre" id="sobre">
+            <h2 class="sobre__titulo">Nossa História</h2>
+            <p class="sobre__paragrafo">Criada em 2010, a empresa Royal Dream Arquitetura começou com um colaborador e começou a atender diversos clientes, isso fez com que a empresa adquirisse grande experiência em projetos, e consequentemente, conseguimos aumentar nossa capacidade de expansão. Hoje a empresa conta com uma equipe de oito profissionais altamente qualificados, e além disso, metodologias e equipamentos que permitem gerar uma variedade de projetos, também contamos com parceiros que trabalham com áreas relacionadas a construção, tudo isso para que possamos lhe oferecer o melhor quando o assunto é arquitetura.</p>
+            <a class="sobre__botao" href="#contato" >Quer saber mais? Fale Conosco!</a>
+        </section>
+
+        <!-- seção serviços prestados -->
+        <section class="servicos" id="servicos">
+            <h2 class="servicos__titulo">Serviços Prestados</h2>
+
+            <div class="servicos__div">
+                <img src="img/servico-img1.png" alt="ícone de compasso e esquadro">
+                <h3 class="servicos__titulo">Criação de Planta Baixa</h3>
+                <p class="servicos__paragrafo">Podemos desenhar os locais que sempre sonhou, de acordo com espaço disponível. </p>
+            </div>
+
+            <div class="servicos__div">
+                <img src="img/servico-img2.png" alt="ícone de monitor">
+                <h3 class="servicos__titulo">Criação de Planta Baixa ou Layout 3D</h3>
+                <p class="servicos__paragrafo">Deseja criar uma planta baixa ou layout 3D? Nós temos a solução!</p>
+            </div>
+
+            <div class="servicos__div">
+                <img src="img/servico-img3.png" alt="ícone de planta baixa">
+                <h3 class="servicos__titulo">Edição de Layouts Pré-Existentes</h3>
+                <p class="servicos__paragrafo">Caso queira alterar um layout pré-existente, deixe conosco que fazemos isso para você!</p>
+            </div>
+
+            <div class="servicos__div">
+                <img src="img/servico-img4.png" alt="ícone de construção">
+                <h3 class="servicos__titulo">Orçamento de Materiais e Mão de Obra</h3>
+                <p class="servicos__paragrafo">Não quer se preocupar com materiais e mão de obra? Entramos em contato com nossos parceiros.</p>
+            </div>
+
+            <div class="servicos__div">
+                <img src="img/servico-img5.png" alt="ícone de coluna real/desenho">
+                <h3 class="servicos__titulo">Acompanhamento Técnico</h3>
+                <p class="servicos__paragrafo">Também podemos acompanhar a obra, para saber se está de acordo com o planejamento.</p>
+            </div>
+
+            <div class="servicos__div">
+                <img src="img/servico-img6.png" alt="ícone de prédios">
+                <h3 class="servicos__titulo">Atendemos Pessoa Física (Residência)</h3>
+                <p class="servicos__paragrafo">Deseja atendimento para sua residência? Estamos à sua disposição!</p>
+            </div>
+
+            <div class="servicos__div">
+                <img src="img/servico-img7.png" alt="ícone de casa">
+                <h3 class="servicos__titulo">Atendemos Pessoa Jurídica (Empresa)</h3>
+                <p class="servicos__paragrafo">Deseja atendimento para sua empresa? Contrate nossos serviços!</p>
+            </div>
+        </section>
+
+        <!-- seção fotos de portifólio -->
+        <section class="fotos" id="fotos">
+            <h2 class="fotos__titulo">Galeria de Serviços Executados</h2>
+            <img class="fotos__img" src="img/foto1.jpg" alt="foto de empresa">
+            <img class="fotos__img" src="img/foto2.jpg" alt="pessoa realizando desenho técnico">
+            <img class="fotos__img" src="img/foto3.jpg" alt="prédio empresarial de vidro 1">
+            <img class="fotos__img" src="img/foto4.jpg" alt="casa moderna">
+            <img class="fotos__img" src="img/foto5.jpg" alt="prédio empresarial de vidro 2">
+            <img class="fotos__img" src="img/foto6.jpg" alt="operadores trabalhando em painel solar">
+        </section>
+
+        <!-- seção informações de contato -->
+        <section class="contato" id="contato">
+            <h2 class="contato__titulo">Contato</h2>
+            <p class="contato__paragrafo">Nossos canais de atendimento:</p>
+
+            <div>
+                <img src="img/tel.png" alt="telefone">
+                <p><a href="tel:19981008888"></a>(19) 98100-8888</p>
+            </div>
+
+            <div>
+                <img src="img/mail.png" alt="email">
+                <p><a href="mailto:contato@royaldream.com.br"></a>contato@royaldream.com.br</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- rodapé da página -->
+    <footer class="rodape">
+        <a class="rodape__link" href="#">Voltar ao Início</a>
+        <p> Royal Dream Arquitetura - Desenvolvido por: Power TI</p>
+    </footer>
+</body>
+</html>
